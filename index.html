@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+        <div class="logo">QuantumCalc</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ================= HOME ================= -->
+    <section id="home" class="section">
+        <h1 class="main-title">Scientific Calculator</h1>
+        <h2>Tips:- Use parentheses</h2>
+        <p class="subtitle">Solve Complex Expressions Instantly</p>
+        <iframe src="calc.html" class="calc-frame"></iframe>
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+    <section id="features" class="section">
+        <h2>Features</h2>
+
+        <div class="features-grid">
+            <div class="feature-box" data-feature="trigo">Trigonometric Functions</div>
+            <div class="feature-box" data-feature="log">Logarithmic Operations</div>
+            <div class="feature-box" data-feature="fact">Factorial Support</div>
+            <div class="feature-box" data-feature="power">Square Root & Power</div>
+            <div class="feature-box" data-feature="const">Constants (pi, e)</div>
+            <div class="feature-box" data-feature="history">History Recall System</div>
+            <div class="feature-box" data-feature="Error"> Avoid Errors </div>
+        </div>
+    </section>
+
+    <!-- POPUP MODAL -->
+    <div id="featureModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close-btn">&times;</span>
+            <h2 id="featureTitle"></h2>
+            <p id="featureDescription"></p>
+        </div>
+    </div>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+        <h2>About This Project</h2>
+        <p class="guide-text">This project was created under the guidance of our respected teacher:</p>
+
+        <div class="sir-box">
+            <img src="sir.jpeg" class="sir-img">
+            <div>
+                <h3 class="sir-name">Mr. Sanjay Kumar</h3>
+                <p class="sir-desc">Thank you sir for your continuous support and guidance throughout the project.</p>
+            </div>
+        </div>
+
+        <h3 class="team-title">Team Contributions</h3>
+
+        <div class="team-grid">
+            <div class="team-card">
+                <img src="vansh.jpeg">
+                <h3>Vansh Modanwal</h3>
+                <p>Layout design, UI structure, program formatting.</p>
+            </div>
+
+            <div class="team-card">
+                <img src="Adtiya.jpeg">
+                <h3>Aditya Rastogi</h3>
+                <p>Calculator design, input handling.</p>
+            </div>
+
+            <div class="team-card">
+                <img src="harsh.jpeg">
+                <h3>Harsh Patel</h3>
+                <p>Error handling, output formatting.</p>
+            </div>
+
+            <div class="team-card">
+                <img src="panchanan.jpeg">
+                <h3>Panchanan Pandey</h3>
+                <p>Multiplication & division logic, debugging.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>Vansh Modanwal</h3>
+                <p>📧 vansh.50673.srmu@email.com</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Aditya Rastogi</h3>
+                <p>📧 adityafromsrmu@email.com</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Harsh Patel</h3>
+                <p>📧 patelharsh1239389@email.com</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Panchanan Pandey</h3>
+                <p>📧 pandeypanchanan49@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Load JS LAST -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

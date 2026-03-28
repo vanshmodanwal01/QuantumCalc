@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d1a;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #111;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+/* SECTIONS */
+.section {
+    padding: 80px 60px;
+    text-align: center;
+}
+.main-title {
+    font-size: 42px;
+    color: #00eaff;
+}
+.subtitle {
+    margin-bottom: 40px;
+    color: #a0c7ff;
+}
+
+/* CALCULATOR FRAME */
+.calc-frame {
+    width: 600px;
+    height: 520px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 25px #00eaff;
+}
+
+/* SIR BOX */
+.sir-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background: rgba(0,255,255,0.05);
+    padding: 20px;
+    border-radius: 12px;
+    width: 70%;
+    margin: auto;
+}
+.sir-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 15px #00eaff;
+}
+.sir-name {
+    color: #00eaff;
+    font-size: 24px;
+}
+
+/* TEAM GRID */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+.team-card {
+    background: #161631;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #222;
+}
+.team-card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+/* FEATURES BOXES */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 25px;
+}
+.feature-box {
+    background: #161631;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* CONTACT */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 25px;
+}
+.contact-card {
+    background: #161631;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* CALCULATOR UI */
+.calc-container {
+    width: 80%;
+    margin: auto;
+    background: rgba(0,255,255,0.05);
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.calc-input {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background: #00141a;
+    color: #00eaff;
+    border: 1px solid #00eaff;
+    border-radius: 8px;
+}
+
+.calc-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    background: #00eaff;
+    border: none;
+    color: black;
+    font-size: 18px;
+    border-radius: 8px;
+}
+/* Popup modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(3px);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    background: #161631;
+    padding: 25px;
+    width: 50%;
+    border-radius: 12px;
+    border: 1px solid #00eaff;
+    box-shadow: 0 0 15px #00eaff;
+    color: white;
+}
+
+.close-btn {
+    float: right;
+    font-size: 26px;
+    cursor: pointer;
+    color: #00eaff;
+}
+
+.feature-box {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.feature-box:hover {
+    background: #1f1f44;
+}
