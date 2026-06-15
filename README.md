@@ -1,2 +1,108 @@
-# QuantumCalc
-This is a Quantum Calculator (scientific calculater to help the student for their calculation.)
+# 🧮 QuantumCalc
+
+A modern scientific calculator built using HTML, CSS, and JavaScript.
+
+QuantumCalc helps students perform mathematical calculations quickly and efficiently through a clean and user-friendly interface.
+
+---
+
+## 🚀 Features
+
+- Basic arithmetic operations
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division
+
+- Scientific calculations
+  - Square Root
+  - Power
+  - Percentage
+  - Trigonometric Functions
+
+- Responsive Design
+
+- Easy-to-use Interface
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## 📂 Project Structure
+
+```text
+QuantumCalc/
+│
+├── index.html
+├── calc.html
+├── style.css
+├── script.js
+├── README.md
+└── Images
+```
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+
+### Calculator Interface
+
+
+---
+
+## 🌐 Live Demo
+
+GitHub Pages:
+
+https://vanshmodanwal01.github.io/QuantumCalc/
+
+---
+
+## ⚙️ How to Run Locally
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/vanshmodanwal01/QuantumCalc.git
+```
+
+2. Open the project folder
+
+```bash
+cd QuantumCalc
+```
+
+3. Open `index.html` in your browser
+
+---
+
+## 🎯 Future Improvements
+
+- Dark Mode
+- Calculation History
+- Keyboard Support
+- Unit Converter
+- Currency Converter
+
+---
+
+## 👨‍💻 Author
+
+**Vansh Modanwal**
+
+- GitHub: https://github.com/vanshmodanwal01
+
+---
+
+## 📜 License
+
+This project is open source and available under the MIT License.
