@@ -52,9 +52,13 @@ QuantumCalc/
 ## 📸 Screenshots
 
 ### Home Page
+<img width="1900" height="1107" alt="image" src="https://github.com/user-attachments/assets/5da5a905-6229-4afa-8eec-ff87478b1aa4" />
+
 
 
 ### Calculator Interface
+<img width="847" height="900" alt="image" src="https://github.com/user-attachments/assets/84a1aea1-2871-4732-83ec-e92906197af3" />
+
 
 
 ---
